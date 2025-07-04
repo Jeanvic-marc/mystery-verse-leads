@@ -7,10 +7,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center rotate-12">
-                <span className="text-white font-bold text-lg">🎮</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png" 
+                alt="GameBox Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-2xl font-black text-gradient">GameBox</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed font-medium">
@@ -24,7 +26,7 @@ const Footer = () => {
               >
                 <img src="/lovable-uploads/956175a2-1f0f-408f-9413-6bf7b5e1e722.png" alt="Telegram" className="h-5 w-5" />
               </button>
-              <button className="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 p-3 rounded-full transition-all hover-lift glow">
+              <button className="bg-gradient-to-r from-pink-600 to-red-600 hover:from-pink-500 hover:to-red-500 p-3 rounded-full transition-all hover-lift glow">
                 <Instagram className="h-5 w-5" />
               </button>
               <button className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 p-3 rounded-full transition-all hover-lift glow-blue">
@@ -39,8 +41,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-black mb-4 text-gradient">Serviços 🎯</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-purple-400 transition-colors font-medium">🎁 Caixas Misteriosas</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors font-medium">🎲 Rifas e Sorteios</a></li>
+              <li><a href="#" className="hover:text-red-400 transition-colors font-medium">🎁 Caixas Misteriosas</a></li>
+              <li><a href="#" className="hover:text-gray-400 transition-colors font-medium">🎲 Rifas e Sorteios</a></li>
               <li><a href="#" className="hover:text-green-400 transition-colors font-medium">🤝 Intermediação</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors font-medium">👑 Contas Premium</a></li>
             </ul>

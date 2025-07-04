@@ -43,7 +43,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-gray-400 via-red-400 to-gray-300 bg-clip-text text-transparent;
   }
   
   .text-gradient-orange {
@@ -55,7 +55,7 @@
   }
   
   .glow {
-    @apply shadow-lg shadow-purple-500/25;
+    @apply shadow-lg shadow-red-500/25;
   }
   
   .glow-blue {
@@ -68,6 +68,10 @@
   
   .glow-orange {
     @apply shadow-lg shadow-orange-500/25;
+  }
+  
+  .glow-gray {
+    @apply shadow-lg shadow-gray-500/25;
   }
 }
 
@@ -88,4 +92,18 @@
   .grid {
     @apply gap-6;
   }
+}
+
+/* Animações mais lentas */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
 }
