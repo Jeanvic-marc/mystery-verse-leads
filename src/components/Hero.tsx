@@ -29,10 +29,12 @@ const Hero = () => {
             <Button 
               size="lg"
               onClick={() => window.open('https://t.me/your_telegram_group', '_blank')}
-              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-12 py-6 text-xl rounded-full glow hover-lift mb-12 font-bold"
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-6 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full glow hover-lift mb-12 font-bold w-full md:w-auto"
             >
-              🚀 ENTRAR AGORA NO GRUPO
-              <ArrowRight className="ml-2 h-6 w-6" />
+              <span className="flex items-center justify-center">
+                🚀 ENTRAR AGORA NO GRUPO
+                <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
+              </span>
             </Button>
           </div>
 
