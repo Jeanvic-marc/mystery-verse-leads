@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-gray-900 to-gray-800 text-white py-16 border-t border-gray-700/50">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center rotate-12">
@@ -43,16 +43,6 @@ const Footer = () => {
               <li><a href="#" className="hover:text-cyan-400 transition-colors font-medium">🎲 Rifas e Sorteios</a></li>
               <li><a href="#" className="hover:text-green-400 transition-colors font-medium">🤝 Intermediação</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors font-medium">👑 Contas Premium</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-black mb-4 text-gradient">Suporte 💬</h3>
-            <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-purple-400 transition-colors font-medium">❓ FAQ</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors font-medium">🛒 Como Comprar</a></li>
-              <li><a href="#" className="hover:text-green-400 transition-colors font-medium">💰 Política de Reembolso</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors font-medium">📞 Contato</a></li>
             </ul>
           </div>
         </div>

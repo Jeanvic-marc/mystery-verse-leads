@@ -70,3 +70,22 @@
     @apply shadow-lg shadow-orange-500/25;
   }
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+  
+  h1 {
+    @apply text-4xl leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl leading-tight;
+  }
+  
+  .grid {
+    @apply gap-6;
+  }
+}
