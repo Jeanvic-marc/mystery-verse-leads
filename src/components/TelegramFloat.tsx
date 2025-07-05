@@ -2,7 +2,7 @@
 const TelegramFloat = () => {
   return (
     <a
-      href="https://t.me/your_telegram_group"
+      href="https://t.me/+55_U3tUd2T8zZWEx"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 w-16 h-16 rounded-full shadow-2xl transition-all duration-500 z-50 animate-bounce hover:scale-110 group"

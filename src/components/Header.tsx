@@ -19,10 +19,13 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png" 
-              alt="Logo" 
-              className="w-16 h-16 object-contain"
+            <div 
+              className="w-12 h-12 bg-center bg-contain bg-no-repeat"
+              style={{
+                backgroundImage: `url('/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png')`,
+                backgroundSize: '300%'
+              }}
+              aria-label="Logo"
             />
           </div>
 

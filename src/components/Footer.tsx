@@ -1,6 +1,4 @@
 
-import { Instagram, Twitter, Youtube } from 'lucide-react';
-
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-gray-900 to-gray-800 text-white py-16 border-t border-gray-700/50">
@@ -8,10 +6,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <img 
-                src="/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png" 
-                alt="Logo" 
-                className="w-16 h-16 object-contain"
+              <div 
+                className="w-14 h-14 bg-center bg-contain bg-no-repeat"
+                style={{
+                  backgroundImage: `url('/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png')`,
+                  backgroundSize: '300%'
+                }}
+                aria-label="Logo"
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed font-medium">
