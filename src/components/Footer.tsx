@@ -7,13 +7,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+            <div className="flex items-center mb-6">
               <img 
                 src="/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png" 
-                alt="GameBox Logo" 
-                className="w-10 h-10 object-contain"
+                alt="Logo" 
+                className="w-16 h-16 object-contain"
               />
-              <span className="text-2xl font-black text-gradient">GameBox</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed font-medium">
               🔥 Sua plataforma confiável para caixas misteriosas, rifas e itens exclusivos dos melhores jogos. 
@@ -21,19 +20,10 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <button 
-                onClick={() => window.open('https://t.me/your_telegram_group', '_blank')}
+                onClick={() => window.open('https://t.me/+55_U3tUd2T8zZWEx', '_blank')}
                 className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 p-3 rounded-full transition-all hover-lift glow-blue"
               >
                 <img src="/lovable-uploads/956175a2-1f0f-408f-9413-6bf7b5e1e722.png" alt="Telegram" className="h-5 w-5" />
-              </button>
-              <button className="bg-gradient-to-r from-pink-600 to-red-600 hover:from-pink-500 hover:to-red-500 p-3 rounded-full transition-all hover-lift glow">
-                <Instagram className="h-5 w-5" />
-              </button>
-              <button className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 p-3 rounded-full transition-all hover-lift glow-blue">
-                <Twitter className="h-5 w-5" />
-              </button>
-              <button className="bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-500 hover:to-pink-500 p-3 rounded-full transition-all hover-lift glow-orange">
-                <Youtube className="h-5 w-5" />
               </button>
             </div>
           </div>

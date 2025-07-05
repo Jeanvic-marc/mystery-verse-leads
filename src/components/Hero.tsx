@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="animate-scale-in">
             <Button 
               size="lg"
-              onClick={() => window.open('https://t.me/your_telegram_group', '_blank')}
+              onClick={() => window.open('https://t.me/+55_U3tUd2T8zZWEx', '_blank')}
               className="bg-gradient-to-r from-gray-600 to-red-600 hover:from-gray-500 hover:to-red-500 text-white px-6 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full glow hover-lift mb-12 font-bold w-full md:w-auto"
             >
               <span className="flex items-center justify-center">
