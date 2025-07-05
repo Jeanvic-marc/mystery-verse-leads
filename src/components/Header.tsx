@@ -20,10 +20,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <div 
-              className="w-12 h-12 bg-center bg-contain bg-no-repeat"
+              className="w-36 h-12 bg-center bg-contain bg-no-repeat"
               style={{
                 backgroundImage: `url('/lovable-uploads/d0631d63-8a2f-4662-a5c3-aa2aafad1562.png')`,
-                backgroundSize: '300%'
+                backgroundSize: '120%'
               }}
               aria-label="Logo"
             />
